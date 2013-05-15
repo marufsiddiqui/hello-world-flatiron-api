@@ -1,7 +1,7 @@
 {
-  "name": "maruf-blog",
-  "subdomain": "maruf-blog",
-  "description": "maruf-blog",
+  "name": "hello-world-api-flatiron",
+  "subdomain": "hello-world-api-flatiron",
+  "description": "Sample API in Flatironjs",
   "version": "0.0.1",
   "scripts": {
     "start": "node app.js"

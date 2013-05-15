@@ -1,0 +1,10 @@
+h2 Edit post
+
+label(for='title') Title:
+input(name='title', id='title', value="#{post.title}")
+
+p Body:
+textarea(cols='50', rows='15')= post.text
+
+p
+  button Edit Post

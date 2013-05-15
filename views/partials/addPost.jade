@@ -1,0 +1,11 @@
+h2 Write a post
+form(action='/post', method='post')
+  input(type='hidden', value='#{len + 1}', name='id')
+  label(for='title') Title:
+  input(name='title', id='title')
+
+  p Body:
+  textarea(cols='50', rows='15', name='text')
+
+  p
+    button Submit Post
